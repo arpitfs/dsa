@@ -11,7 +11,7 @@ type Result struct {
 	thirdValue  int
 }
 
-func main() {
+func threeSum() {
 	input := []int{-1, 0, 1, 2, -1, -4}
 	result := make(map[int]Result)
 	sort.Ints(input) // -4,-1,-1,0,1,2
