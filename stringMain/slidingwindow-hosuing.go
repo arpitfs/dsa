@@ -1,8 +1,8 @@
-package main
+package stringMain
 
 import "fmt"
 
-func main() {
+func houses() {
 	input := []int{1, 3, 2, 1, 4, 1, 3, 2, 1, 1, 2}
 	target := 8
 	getHouses(input, target)
