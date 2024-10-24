@@ -3,6 +3,7 @@ package main
 import (
 	"arrayMain"
 	"fmt"
+	"lru"
 	"stringMain"
 )
 
@@ -12,4 +13,6 @@ func main() {
 	fmt.Println("Completed Running Array Programs")
 	stringMain.String()
 	fmt.Println("Completed Running String Programs")
+	lru.LRUCache()
+	fmt.Println("Printed LRU Cache")
 }
