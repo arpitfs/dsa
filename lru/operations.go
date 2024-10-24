@@ -1,19 +1,10 @@
 package lru
 
-import "fmt"
-
 type LRU struct {
 	capacity int
 	head     *Node
 	tail     *Node
 	cache    map[int]*Node
-}
-
-type Node struct {
-	key   int
-	value int
-	next  *Node
-	prev  *Node
 }
 
 func CreateLRUCache(cap int) *LRU {
@@ -75,7 +66,7 @@ func (l *LRU) addValueFromCache(key, value int) {
 			delete(l.cache, oldest.key)
 		}
 		//add to front
-		newNode := &Node{key: key, value: value}
+		newNode := CreateNewNode(key, value)
 
 		newNode.prev = l.head
 		newNode.next = l.head.next
@@ -84,17 +75,4 @@ func (l *LRU) addValueFromCache(key, value int) {
 
 		l.cache[key] = newNode
 	}
-}
-
-func LRUCache() {
-	cache := CreateLRUCache(2)
-	cache.addValueFromCache(1, 1)
-	cache.addValueFromCache(2, 2)
-	fmt.Println(cache.getValueFromCache(1)) // returns 1
-	cache.addValueFromCache(3, 3)           // evicts key 2
-	fmt.Println(cache.getValueFromCache(2)) // returns 0 (not found)
-	cache.addValueFromCache(4, 4)           // evicts key 1
-	fmt.Println(cache.getValueFromCache(1)) // returns 0 (not found)
-	fmt.Println(cache.getValueFromCache(3)) // returns 3
-	fmt.Println(cache.getValueFromCache(4)) // retuurn 4
 }
