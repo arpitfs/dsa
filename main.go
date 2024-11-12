@@ -17,4 +17,5 @@ func main() {
 	lru.LRUCache()
 	fmt.Println("Printed LRU Cache")
 	ll.DetectCycle()
+	ll.ReverseList()
 }
