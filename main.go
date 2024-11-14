@@ -2,6 +2,7 @@ package main
 
 import (
 	"arrayMain"
+	"dp"
 	"fmt"
 	"ll"
 	"lru"
@@ -16,7 +17,6 @@ func main() {
 	fmt.Println("Completed Running String Programs")
 	lru.LRUCache()
 	fmt.Println("Printed LRU Cache")
-	ll.DetectCycle()
-	ll.ReverseList()
-	ll.RemoveEnd()
+	ll.ListMain()
+	dp.DpMain()
 }

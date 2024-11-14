@@ -6,4 +6,5 @@ use (
 	./stringMain
 	./lru
 	./ll
+	./dp
 )
