@@ -13,5 +13,6 @@ func Array() {
 	searchRotatedSortArray()
 	threeSum()
 	twoSum()
+	jump_game()
 	fmt.Println("*****FInishing of Programs*****")
 }
