@@ -2,10 +2,10 @@ go 1.21.1
 
 use (
 	.
-	./arrayMain
-	./stringMain
+	./array
+	./string
 	./lru
-	./ll
+	./linkedlist
 	./dp
 	./bitwise
 )

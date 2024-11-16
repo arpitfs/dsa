@@ -1,24 +1,24 @@
 package main
 
 import (
-	"arrayMain"
+	"array"
 	"bitwise"
 	"dp"
 	"fmt"
-	"ll"
+	"linkedlist"
 	"lru"
-	"stringMain"
+	"string"
 )
 
 func main() {
 	fmt.Println("Start Running DSA Programs")
-	arrayMain.Array()
+	array.Array()
 	fmt.Println("Completed Running Array Programs")
-	stringMain.String()
+	string.String()
 	fmt.Println("Completed Running String Programs")
 	lru.LRUCache()
 	fmt.Println("Printed LRU Cache")
-	ll.ListMain()
+	linkedlist.ListMain()
 	dp.DpMain()
 	bitwise.Bitwise()
 }
