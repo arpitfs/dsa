@@ -1,21 +1,21 @@
-package linkedlist
+package helper
 
 import "fmt"
 
 type Node struct {
-	value int
-	next  *Node
+	Value int
+	Next  *Node
 }
 
-func createList(values []int) *Node {
+func CreateList(values []int) *Node {
 	if len(values) == 0 {
 		return nil
 	}
-	head := &Node{value: values[0]}
+	head := &Node{Value: values[0]}
 	current := head
 	for _, val := range values[1:] {
-		newNode := &Node{value: val}
-		current.next = newNode
+		newNode := &Node{Value: val}
+		current.Next = newNode
 		current = newNode
 	}
 	return head
@@ -24,8 +24,8 @@ func createList(values []int) *Node {
 func PrintList(head *Node) {
 	current := head
 	for current != nil {
-		fmt.Print(current.value, " -> ")
-		current = current.next
+		fmt.Print(current.Value, " -> ")
+		current = current.Next
 	}
 	fmt.Println("nil")
 }

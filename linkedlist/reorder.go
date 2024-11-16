@@ -1,50 +1,52 @@
 package linkedlist
 
+import "linkedlist/helper"
+
 func reorder() {
 	data := []int{1, 2, 3, 4, 5}
-	head := createList(data)
+	head := helper.CreateList(data)
 	reorderListHead := reorderList(head)
-	PrintList(reorderListHead)
+	helper.PrintList(reorderListHead)
 }
 
-func reorderList(head *Node) *Node {
-	if head.next == nil || head == nil {
+func reorderList(head *helper.Node) *helper.Node {
+	if head.Next == nil || head == nil {
 		return head
 	}
 
 	slow := head
 	fast := head
 
-	for fast.next != nil && fast.next.next != nil {
-		slow = slow.next
-		fast = fast.next.next
+	for fast.Next != nil && fast.Next.Next != nil {
+		slow = slow.Next
+		fast = fast.Next.Next
 	}
 
 	head1 := head
-	head2 := slow.next
-	slow.next = nil
+	head2 := slow.Next
+	slow.Next = nil
 	head2 = reverseList(head2)
 	current := head
 
 	for head1 != nil {
-		temp := head1.next
-		current.next = head1
-		head1.next = head2
+		temp := head1.Next
+		current.Next = head1
+		head1.Next = head2
 		current = head2
 		head1 = temp
 		if head2 != nil {
-			head2 = head2.next
+			head2 = head2.Next
 		}
 	}
 	return head
 }
 
-func reverseList(head *Node) *Node {
-	var prev *Node
+func reverseList(head *helper.Node) *helper.Node {
+	var prev *helper.Node
 	current := head
 	for current != nil {
-		temp := current.next
-		current.next = prev
+		temp := current.Next
+		current.Next = prev
 		prev = current
 		current = temp
 	}

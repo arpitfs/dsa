@@ -1,24 +1,27 @@
 package linkedlist
 
-import "fmt"
+import (
+	"fmt"
+	"linkedlist/helper"
+)
 
 func mergeKSort() {
 	record1 := []int{2, 3, 5}
-	head1 := createList(record1)
+	head1 := helper.CreateList(record1)
 	record2 := []int{1, 2, 6}
-	head2 := createList(record2)
+	head2 := helper.CreateList(record2)
 	record3 := []int{6, 8, 9}
-	head3 := createList(record3)
+	head3 := helper.CreateList(record3)
 	record4 := []int{4, 7, 9}
-	head4 := createList(record4)
+	head4 := helper.CreateList(record4)
 
-	list := []*Node{head1, head2, head3, head4}
+	list := []*helper.Node{head1, head2, head3, head4}
 	head := mergeSortedList(list)
 	fmt.Println("merge K sorted")
-	PrintList(head)
+	helper.PrintList(head)
 }
 
-func mergeSortedList(list []*Node) *Node {
+func mergeSortedList(list []*helper.Node) *helper.Node {
 	if len(list) == 0 {
 		return nil
 	}
@@ -34,27 +37,27 @@ func mergeSortedList(list []*Node) *Node {
 
 }
 
-func mergeTwoSortedList(node1, node2 *Node) *Node {
-	dummy := &Node{}
+func mergeTwoSortedList(node1, node2 *helper.Node) *helper.Node {
+	dummy := &helper.Node{}
 	current := dummy
 	for node1 != nil && node2 != nil {
-		if node1.value < node2.value {
-			current.next = node1
-			current = current.next
-			node1 = node1.next
+		if node1.Value < node2.Value {
+			current.Next = node1
+			current = current.Next
+			node1 = node1.Next
 		} else {
-			current.next = node2
-			current = current.next
-			node2 = node2.next
+			current.Next = node2
+			current = current.Next
+			node2 = node2.Next
 		}
 
 		if node1 == nil {
-			current.next = node2
+			current.Next = node2
 		}
 
 		if node2 == nil {
-			current.next = node1
+			current.Next = node1
 		}
 	}
-	return dummy.next
+	return dummy.Next
 }

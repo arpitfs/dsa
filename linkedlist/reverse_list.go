@@ -1,27 +1,30 @@
 package linkedlist
 
-import "fmt"
+import (
+	"fmt"
+	"linkedlist/helper"
+)
 
 func ReverseList() {
 	data := []int{2, 4, 5, 1}
-	head := createList(data)
-	PrintList(head)
+	head := helper.CreateList(data)
+	helper.PrintList(head)
 	fmt.Println()
 	prev := reverse(head)
-	PrintList(prev)
+	helper.PrintList(prev)
 }
 
-func reverse(head *Node) *Node {
-	if head == nil || head.next == nil {
+func reverse(head *helper.Node) *helper.Node {
+	if head == nil || head.Next == nil {
 		return head
 	}
 
-	var prev *Node
+	var prev *helper.Node
 	current := head
 
 	for current != nil {
-		temp := current.next
-		current.next = prev
+		temp := current.Next
+		current.Next = prev
 		prev = current
 		current = temp
 	}
