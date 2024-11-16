@@ -2,6 +2,7 @@ package main
 
 import (
 	"arrayMain"
+	"bitwise"
 	"dp"
 	"fmt"
 	"ll"
@@ -19,4 +20,5 @@ func main() {
 	fmt.Println("Printed LRU Cache")
 	ll.ListMain()
 	dp.DpMain()
+	bitwise.Bitwise()
 }
