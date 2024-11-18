@@ -7,6 +7,8 @@ import (
 	"fmt"
 	"linkedlist"
 	"lru"
+	binarysearch "main/binary-search"
+	twopointer "main/two-pointer"
 	"string"
 )
 
@@ -21,4 +23,6 @@ func main() {
 	linkedlist.ListMain()
 	dp.DpMain()
 	bitwise.Bitwise()
+	twopointer.GetHouses()
+	binarysearch.RotatedSearch()
 }
