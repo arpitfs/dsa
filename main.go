@@ -8,6 +8,7 @@ import (
 	"linkedlist"
 	"lru"
 	binarysearch "main/binary-search"
+	"main/recursion"
 	twopointer "main/two-pointer"
 	"string"
 )
@@ -24,5 +25,6 @@ func main() {
 	dp.DpMain()
 	bitwise.Bitwise()
 	twopointer.GetHouses()
-	binarysearch.RotatedSearch()
+	binarysearch.BinarySearchProblems()
+	recursion.RecursionProblems()
 }
