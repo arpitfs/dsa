@@ -2,7 +2,7 @@ package twopointer
 
 import "fmt"
 
-func GetHouses() {
+func getHouses() {
 	input := []int{1, 3, 2, 1, 4, 1, 3, 2, 1, 1, 2}
 	k := 8
 

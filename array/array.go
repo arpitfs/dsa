@@ -2,7 +2,7 @@ package array
 
 import "fmt"
 
-func Array() {
+func ArrayProblems() {
 	fmt.Println("*****Starting of Programs*****")
 	buy_sell()
 	containerWater()

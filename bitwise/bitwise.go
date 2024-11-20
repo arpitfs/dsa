@@ -1,6 +1,6 @@
 package bitwise
 
-func Bitwise() {
+func BitwiseProblems() {
 	checkEvenOdd()
 	bitOperations()
 	checkPowerOfTwo()

@@ -1,6 +1,6 @@
 package string
 
-func String() {
+func StringProblems() {
 	spaces()
 	groupAnangram()
 	longestSubstringWithoutReptation()

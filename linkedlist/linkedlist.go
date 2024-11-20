@@ -1,6 +1,6 @@
 package linkedlist
 
-func ListMain() {
+func ListProblems() {
 	DetectCycle()
 	ReverseList()
 	RemoveEnd()

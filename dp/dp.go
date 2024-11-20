@@ -1,5 +1,5 @@
 package dp
 
-func DpMain() {
+func DpProblems() {
 	coins()
 }

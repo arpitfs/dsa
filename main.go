@@ -4,27 +4,24 @@ import (
 	"array"
 	"bitwise"
 	"dp"
-	"fmt"
 	"linkedlist"
 	"lru"
 	binarysearch "main/binary-search"
+	"main/hashing"
 	"main/recursion"
 	twopointer "main/two-pointer"
 	"string"
 )
 
 func main() {
-	fmt.Println("Start Running DSA Programs")
-	array.Array()
-	fmt.Println("Completed Running Array Programs")
-	string.String()
-	fmt.Println("Completed Running String Programs")
+	array.ArrayProblems()
+	string.StringProblems()
 	lru.LRUCache()
-	fmt.Println("Printed LRU Cache")
-	linkedlist.ListMain()
-	dp.DpMain()
-	bitwise.Bitwise()
-	twopointer.GetHouses()
+	linkedlist.ListProblems()
+	dp.DpProblems()
+	bitwise.BitwiseProblems()
+	twopointer.TwoPointerProblems()
 	binarysearch.BinarySearchProblems()
 	recursion.RecursionProblems()
+	hashing.HashingProblem()
 }

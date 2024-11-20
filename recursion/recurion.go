@@ -4,4 +4,6 @@ func RecursionProblems() {
 	countWays()
 	nqueen()
 	subsetSequence()
+	Sudoko()
+	GenerateBrackets()
 }
