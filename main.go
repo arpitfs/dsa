@@ -8,6 +8,7 @@ import (
 	"lru"
 	binarysearch "main/binary-search"
 	"main/hashing"
+	"main/heap"
 	"main/recursion"
 	twopointer "main/two-pointer"
 	"string"
@@ -24,4 +25,5 @@ func main() {
 	binarysearch.BinarySearchProblems()
 	recursion.RecursionProblems()
 	hashing.HashingProblem()
+	heap.HeapProblems()
 }
