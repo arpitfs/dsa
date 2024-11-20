@@ -10,6 +10,7 @@ import (
 	"main/hashing"
 	"main/heap"
 	"main/recursion"
+	"main/tree"
 	twopointer "main/two-pointer"
 	"string"
 )
@@ -26,4 +27,5 @@ func main() {
 	recursion.RecursionProblems()
 	hashing.HashingProblem()
 	heap.HeapProblems()
+	tree.Tree()
 }
