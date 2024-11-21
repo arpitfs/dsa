@@ -27,5 +27,5 @@ func main() {
 	recursion.RecursionProblems()
 	hashing.HashingProblem()
 	heap.HeapProblems()
-	tree.Tree()
+	tree.TreeProblems()
 }
