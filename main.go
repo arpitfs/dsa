@@ -5,6 +5,7 @@ import (
 	binarysearch "main/binary-search"
 	"main/bitwise"
 	"main/dp"
+	"main/graph"
 	"main/hashing"
 	"main/heap"
 	"main/linkedlist"
@@ -28,4 +29,5 @@ func main() {
 	hashing.HashingProblem()
 	tree.TreeProblems()
 	heap.HeapProblems()
+	graph.GraphProblems()
 }
