@@ -1,18 +1,18 @@
 package main
 
 import (
-	"array"
-	"bitwise"
-	"dp"
-	"linkedlist"
-	"lru"
+	"main/array"
 	binarysearch "main/binary-search"
+	"main/bitwise"
+	"main/dp"
 	"main/hashing"
 	"main/heap"
+	"main/linkedlist"
+	"main/lru"
 	"main/recursion"
+	"main/string"
 	"main/tree"
 	twopointer "main/two-pointer"
-	"string"
 )
 
 func main() {
@@ -26,6 +26,6 @@ func main() {
 	binarysearch.BinarySearchProblems()
 	recursion.RecursionProblems()
 	hashing.HashingProblem()
-	tree.TreeProblems()
 	heap.HeapProblems()
+	tree.TreeProblems()
 }

@@ -2,7 +2,7 @@ package linkedlist
 
 import (
 	"fmt"
-	"linkedlist/helper"
+	"main/linkedlist/helper"
 )
 
 func DetectCycle() {

@@ -1,6 +1,6 @@
 package linkedlist
 
-import "linkedlist/helper"
+import "main/linkedlist/helper"
 
 func RemoveEnd() {
 	data := []int{1, 2, 3, 4, 5}
