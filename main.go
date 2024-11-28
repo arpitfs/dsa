@@ -26,6 +26,6 @@ func main() {
 	binarysearch.BinarySearchProblems()
 	recursion.RecursionProblems()
 	hashing.HashingProblem()
-	heap.HeapProblems()
 	tree.TreeProblems()
+	heap.HeapProblems()
 }

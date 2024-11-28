@@ -39,4 +39,5 @@ func minHeap() {
 	fmt.Printf("Min-Heap: %v\n", *h)
 	fmt.Printf("Popped: %d\n", heap.Pop(h))
 	fmt.Printf("Min-Heap after pop: %v\n", *h)
+
 }
