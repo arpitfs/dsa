@@ -10,4 +10,6 @@ func GraphProblems() {
 	snakesladders()
 	dfs()
 	cyclicCheck()
+	weightedGraphImplementation()
+	dijkstraAlgo()
 }
