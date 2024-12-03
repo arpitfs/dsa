@@ -9,9 +9,7 @@ func twoSum() {
 	set := make(map[int]int)
 
 	for i := 0; i <= len(input)-1; i++ {
-
 		data := target - input[i]
-
 		if _, exists := set[data]; exists {
 			fmt.Println(i, set[data])
 		} else {

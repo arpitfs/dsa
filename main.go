@@ -11,6 +11,7 @@ import (
 	"main/linkedlist"
 	"main/lru"
 	"main/recursion"
+	searchsorting "main/search-sorting"
 	"main/string"
 	"main/tree"
 	twopointer "main/two-pointer"
@@ -30,4 +31,5 @@ func main() {
 	tree.TreeProblems()
 	heap.HeapProblems()
 	graph.GraphProblems()
+	searchsorting.Searchsorting()
 }
