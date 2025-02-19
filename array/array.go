@@ -14,6 +14,8 @@ func ArrayProblems() {
 	// threeSum()
 	// twoSum()
 	// jump_game()
-	mountain()
+	//mountain()
+	//longestBand()
+	rain()
 	fmt.Println("*****FInishing of Programs*****")
 }
