@@ -16,6 +16,9 @@ func ArrayProblems() {
 	// jump_game()
 	//mountain()
 	//longestBand()
-	rain()
+	//rain()
+	//armstrong()
+	//gcd()
+	lcm()
 	fmt.Println("*****FInishing of Programs*****")
 }
