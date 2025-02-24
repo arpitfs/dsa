@@ -19,6 +19,6 @@ func ArrayProblems() {
 	//rain()
 	//armstrong()
 	//gcd()
-	lcm()
+	//lcm()
 	fmt.Println("*****FInishing of Programs*****")
 }

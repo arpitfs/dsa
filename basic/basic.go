@@ -9,5 +9,10 @@ func BasicProblems() {
 	//binarySearch()
 	//reverse()
 
-	checkpalindrome()
+	//checkpalindrome()
+	//rotateArray()
+	//missing_number()
+	//moveZeros()
+	//findPairs()
+	majorityElement()
 }
