@@ -14,5 +14,12 @@ func BasicProblems() {
 	//missing_number()
 	//moveZeros()
 	//findPairs()
-	majorityElement()
+	//majorityElement()
+
+	//reverseString()
+	//checkAnagram()
+	//countOccurance()
+	//removeOccurance()
+	//compress()
+	findNRC()
 }
