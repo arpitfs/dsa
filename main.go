@@ -1,9 +1,11 @@
 package main
 
-import "main/basic"
+import (
+	"main/array"
+)
 
 func main() {
-	//array.ArrayProblems()
+	array.ArrayProblems()
 	// string.StringProblems()
 	// lru.LRUCache()
 	// linkedlist.ListProblems()
@@ -17,6 +19,6 @@ func main() {
 	// heap.HeapProblems()
 	// graph.GraphProblems()
 	// searchsorting.Searchsorting()
-	basic.BasicProblems()
+	//basic.BasicProblems()
 	//concurrency.Concurrency()
 }

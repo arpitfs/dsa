@@ -3,7 +3,7 @@ package array
 import "fmt"
 
 func twoSum() {
-	input := []int{2, 1, 3, 5, 8}
+	input := []int{2, 7, 11, 15}
 	target := 9
 
 	set := make(map[int]int)
@@ -13,7 +13,7 @@ func twoSum() {
 		if _, exists := set[data]; exists {
 			fmt.Println(i, set[data])
 		} else {
-			set[i] = input[i]
+			set[input[i]] = i
 		}
 
 	}

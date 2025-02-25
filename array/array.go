@@ -12,7 +12,8 @@ func ArrayProblems() {
 	// minRotatedArray()
 	// searchRotatedSortArray()
 	// threeSum()
-	// twoSum()
+	//twoSum()
+	productExeceptSelf()
 	// jump_game()
 	//mountain()
 	//longestBand()
@@ -20,6 +21,6 @@ func ArrayProblems() {
 	//armstrong()
 	//gcd()
 	//lcm()
-	lwrc()
+	//lwrc()
 	fmt.Println("*****FInishing of Programs*****")
 }

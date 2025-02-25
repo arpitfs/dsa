@@ -26,5 +26,7 @@ func BasicProblems() {
 	//arraySorted()
 	//findUnion()
 	//findIntersection()
-	findDuplicate()
+	//findDuplicate()
+	//maxSubarraysum()
+	sort012()
 }
