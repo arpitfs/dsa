@@ -21,5 +21,10 @@ func BasicProblems() {
 	//countOccurance()
 	//removeOccurance()
 	//compress()
-	findNRC()
+	//findNRC()
+	//maxMin()
+	//arraySorted()
+	//findUnion()
+	//findIntersection()
+	findDuplicate()
 }
