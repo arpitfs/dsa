@@ -1,11 +1,9 @@
 package main
 
-import (
-	"main/array"
-)
+import "main/concurrency"
 
 func main() {
-	array.ArrayProblems()
+	//array.ArrayProblems()
 	// string.StringProblems()
 	// lru.LRUCache()
 	// linkedlist.ListProblems()
@@ -20,5 +18,5 @@ func main() {
 	// graph.GraphProblems()
 	// searchsorting.Searchsorting()
 	//basic.BasicProblems()
-	//concurrency.Concurrency()
+	concurrency.Concurrency()
 }

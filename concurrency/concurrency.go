@@ -1,5 +1,12 @@
 package concurrency
 
 func Concurrency() {
-	sum()
+	//sum()
+	//printThreads()
+	//squareSum()
+	//channelOperation()
+	//channels()
+	//	producerConsumer()
+	//selectDemo()
+	counter()
 }
