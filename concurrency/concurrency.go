@@ -8,5 +8,12 @@ func Concurrency() {
 	//channels()
 	//	producerConsumer()
 	//selectDemo()
-	counter()
+	//counter()
+	//readWriteMutex()
+	//channelDirection()
+	//fanIn()
+	//fanOut()
+	//rateLimitor()
+	//timeoutSelect()
+	pipeline()
 }
