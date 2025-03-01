@@ -2,6 +2,7 @@ package array
 
 import "fmt"
 
+// Find the longest palindromic substring.
 func lwrc() {
 
 	input := "abba"

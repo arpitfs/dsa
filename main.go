@@ -1,10 +1,10 @@
 package main
 
-import "main/array"
+import "main/string"
 
 func main() {
-	array.ArrayProblems()
-	// string.StringProblems()
+	//array.ArrayProblems()
+	string.StringProblems()
 	// lru.LRUCache()
 	// linkedlist.ListProblems()
 	// dp.DpProblems()

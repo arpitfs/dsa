@@ -9,7 +9,7 @@ func BasicProblems() {
 	//binarySearch()
 	//reverse()
 
-	//checkpalindrome()
+	checkpalindrome()
 	//rotateArray()
 	//missing_number()
 	//moveZeros()
@@ -28,5 +28,5 @@ func BasicProblems() {
 	//findIntersection()
 	//findDuplicate()
 	//maxSubarraysum()
-	sort012()
+	//sort012()
 }

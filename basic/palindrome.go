@@ -6,7 +6,8 @@ import (
 )
 
 func checkpalindrome() {
-	input := "A man, a plan, canal, Panama!"
+	//input := "A man, a plan, canal, Panama!"
+	input := "racecar"
 
 	convertedInput := strings.ToLower(input)
 	var result string
