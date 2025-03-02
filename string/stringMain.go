@@ -12,5 +12,6 @@ func StringProblems() {
 	//countWords()
 	//generatePossibleSubstrings()
 
-	palindrome()
+	//palindrome()
+	findAllAnagrams()
 }

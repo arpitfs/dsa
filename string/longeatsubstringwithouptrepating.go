@@ -12,7 +12,7 @@ func longestSubstringWithoutReptation() {
 func longestSubstring(input string) int {
 	ans := 0
 	left := 0
-	checker := make(map[rune]int)
+	checker := make(map[rune]int) // pwwkew
 	for i, v := range input {
 		if _, exists := checker[v]; !exists {
 			checker[v] = i
@@ -31,3 +31,9 @@ func maximum(value1, value2 int) int {
 	}
 	return value2
 }
+
+// pwwkew
+// p => p:0 left = 0 and ans = max(0, 0-0+1) => 1
+// w =>  w:1, left = 0 & and = max(1, 0-1+1) = > 1
+// w => ans =1 left = 0, => left = max(0, 2) => left =2, w:2, ans = max(1, 2-1+1) = 2
+//
