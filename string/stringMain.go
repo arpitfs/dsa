@@ -13,5 +13,10 @@ func StringProblems() {
 	//generatePossibleSubstrings()
 
 	//palindrome()
-	findAllAnagrams()
+	//findAllAnagrams()
+	//checkRotationString()
+	//countVowels()
+	//longestCommonPrefix()
+	//convertStringToInt()
+	convertSimpleIntToDigit()
 }
