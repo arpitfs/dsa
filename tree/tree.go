@@ -9,4 +9,5 @@ func TreeProblems() {
 	maxSubset()
 	printKLevel()
 	verticalPrint()
+	treeOperations()
 }
