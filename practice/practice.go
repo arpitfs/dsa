@@ -12,5 +12,6 @@ func Practice() {
 	//mostWater()
 	//binarySearchTree()
 	//RunCache()
-	coinChange()
+	//coinChange()
+	productWithoutSelf()
 }
