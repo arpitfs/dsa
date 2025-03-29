@@ -8,5 +8,6 @@ func Practice() {
 	// checkDuplicatePractice()
 	// channelConcurrency()
 	//sumCon()
-	checkParanthesis()
+	//checkParanthesis()
+	mostWater()
 }
