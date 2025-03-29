@@ -10,5 +10,6 @@ func Practice() {
 	//sumCon()
 	//checkParanthesis()
 	//mostWater()
-	binarySearchTree()
+	//binarySearchTree()
+	RunCache()
 }
