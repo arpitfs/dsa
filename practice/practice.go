@@ -11,5 +11,6 @@ func Practice() {
 	//checkParanthesis()
 	//mostWater()
 	//binarySearchTree()
-	RunCache()
+	//RunCache()
+	coinChange()
 }
