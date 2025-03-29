@@ -7,5 +7,6 @@ func Practice() {
 	// buySellPractice()
 	// checkDuplicatePractice()
 	// channelConcurrency()
-	sumCon()
+	//sumCon()
+	checkParanthesis()
 }
