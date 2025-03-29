@@ -9,5 +9,6 @@ func Practice() {
 	// channelConcurrency()
 	//sumCon()
 	//checkParanthesis()
-	mostWater()
+	//mostWater()
+	binarySearchTree()
 }
