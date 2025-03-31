@@ -16,5 +16,10 @@ func Practice() {
 	//RunCache()
 	//coinChange()
 	//productWithoutSelf()
-	twopointers.TargetSum()
+	//twopointers.TargetSum()
+	//twopointers.RemoveDuplicates()
+	//twopointers.MoveAllZeros()
+	//twopointers.ReverseString()
+	//twopointers.Palindrome()
+	twopointers.RemoveDuplicates2()
 }
