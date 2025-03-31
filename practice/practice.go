@@ -1,5 +1,7 @@
 package practice
 
+import twopointers "main/practice/two-pointers"
+
 func Practice() {
 	// twoSumPractice()
 	// threeSumPractice()
@@ -13,5 +15,6 @@ func Practice() {
 	//binarySearchTree()
 	//RunCache()
 	//coinChange()
-	productWithoutSelf()
+	//productWithoutSelf()
+	twopointers.TargetSum()
 }
