@@ -1,7 +1,5 @@
 package practice
 
-import twopointers "main/practice/two-pointers"
-
 func Practice() {
 	// twoSumPractice()
 	// threeSumPractice()
@@ -23,5 +21,6 @@ func Practice() {
 	//twopointers.Palindrome()
 	//twopointers.RemoveDuplicates2()
 	//twopointers.PartitionLables()
-	twopointers.TrappingWater()
+	//twopointers.TrappingWater()
+	CheckPermutationExists()
 }
