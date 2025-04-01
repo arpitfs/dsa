@@ -3,7 +3,6 @@ package slidingwindow
 import "fmt"
 
 // Find the maximum in each sliding window of size k.
-
 func MaxInSlidingWindow() {
 	input := []int{1, 3, -1, -3, 5, 3, 6, 7}
 	k := 3
