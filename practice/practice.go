@@ -22,5 +22,6 @@ func Practice() {
 	//twopointers.RemoveDuplicates2()
 	//twopointers.PartitionLables()
 	//twopointers.TrappingWater()
-	CheckPermutationExists()
+	//CheckPermutationExists()
+	MedianSortedArray()
 }
