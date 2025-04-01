@@ -21,5 +21,7 @@ func Practice() {
 	//twopointers.MoveAllZeros()
 	//twopointers.ReverseString()
 	//twopointers.Palindrome()
-	twopointers.RemoveDuplicates2()
+	//twopointers.RemoveDuplicates2()
+	//twopointers.PartitionLables()
+	twopointers.TrappingWater()
 }

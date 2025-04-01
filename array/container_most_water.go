@@ -15,7 +15,7 @@ func containerWater() {
 			water = ans
 		}
 
-		if left > right {
+		if left > right {	
 			right--
 		} else {
 			left++
