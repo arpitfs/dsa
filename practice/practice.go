@@ -1,5 +1,7 @@
 package practice
 
+import slidingwindow "main/practice/sliding-window"
+
 func Practice() {
 	// twoSumPractice()
 	// threeSumPractice()
@@ -23,5 +25,6 @@ func Practice() {
 	//twopointers.PartitionLables()
 	//twopointers.TrappingWater()
 	//CheckPermutationExists()
-	MedianSortedArray()
+	//MedianSortedArray()
+	slidingwindow.MaxInSlidingWindow()
 }
