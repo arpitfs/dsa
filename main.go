@@ -1,8 +1,6 @@
 package main
 
-import (
-	"main/practice"
-)
+import "main/blind75"
 
 func main() {
 	//array.ArrayProblems()
@@ -21,5 +19,6 @@ func main() {
 	// searchsorting.Searchsorting()
 	//basic.BasicProblems()
 	//concurrency.Concurrency()
-	practice.Practice()
+	//practice.Practice()
+	blind75.Blind75()
 }
