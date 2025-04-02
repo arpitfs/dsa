@@ -32,7 +32,7 @@ func findAns(input []int) int {
 		}
 		// if mid is decreasing
 
-		if mid < input[mid-1] {
+		if input[mid] < input[mid-1] {
 			return input[mid]
 		}
 		// discard the sorted

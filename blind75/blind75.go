@@ -2,5 +2,7 @@ package blind75
 
 func Blind75() {
 	//maxSubArraySum()
-	maxSubarrayProduct()
+	//maxSubarrayProduct()
+	minRotatedArray()
+	searchSortedArray()
 }
