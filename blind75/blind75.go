@@ -7,5 +7,7 @@ func Blind75() {
 	//searchSortedArray()
 	//lengthOfLongestSubstring()
 	//validAnagram()
-	groupAnagram()
+	//groupAnagram()
+	//coinChange()
+	climb()
 }
