@@ -3,7 +3,7 @@ package blind75
 import "fmt"
 
 func jump() {
-	nums := []int{2, 3, c, 1, 4}
+	nums := []int{2, 3, 2, 1, 4}
 	fmt.Println(canJump(nums))
 }
 
