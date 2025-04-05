@@ -18,18 +18,16 @@ func hasCycle(head *helper.Node) bool {
 	}
 	slow := head
 	fast := head
-	result := false
 	for fast != nil && fast.Next != nil {
 		if fast == nil || fast.Next == nil {
-			break
+			return false
 		}
 		fast = fast.Next.Next
 		slow = slow.Next
 		if fast == slow {
-			result = true
-			break
+			return true
 		}
 
 	}
-	return result
+	return false
 }
