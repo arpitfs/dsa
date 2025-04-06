@@ -11,5 +11,6 @@ func Blind75() {
 	//coinChange()
 	//climb()
 	//countSubstring()
-	longestPalindromSubString()
+	//longestPalindromSubString()
+	encodeDecode()
 }
