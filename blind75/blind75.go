@@ -10,4 +10,6 @@ func Blind75() {
 	//groupAnagram()
 	//coinChange()
 	//climb()
+	//countSubstring()
+	longestPalindromSubString()
 }
