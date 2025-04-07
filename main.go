@@ -18,7 +18,7 @@ func main() {
 	// graph.GraphProblems()
 	// searchsorting.Searchsorting()
 	//basic.BasicProblems()
-	//concurrency.Concurrency()
+	concurrency.Concurrency()
 	//practice.Practice()
 	//blind75.Blind75()
 }
