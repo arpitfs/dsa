@@ -1,6 +1,6 @@
 package main
 
-import "main/blind75"
+import "main/concurrency"
 
 func main() {
 	//array.ArrayProblems()
@@ -20,5 +20,5 @@ func main() {
 	//basic.BasicProblems()
 	//concurrency.Concurrency()
 	//practice.Practice()
-	blind75.Blind75()
+	//blind75.Blind75()
 }
