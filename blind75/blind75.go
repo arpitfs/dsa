@@ -12,5 +12,7 @@ func Blind75() {
 	//climb()
 	//countSubstring()
 	//longestPalindromSubString()
-	encodeDecode()
+	//encodeDecode()
+	//minWindow()
+	wordBreak()
 }
