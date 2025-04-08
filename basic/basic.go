@@ -11,7 +11,8 @@ func BasicProblems() {
 
 	//	checkpalindrome()
 
-	sumTarget()
+	//sumTarget()
+	pritnFrequency()
 	//rotateArray()
 	//missing_number()
 	//moveZeros()

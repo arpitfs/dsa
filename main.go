@@ -1,6 +1,6 @@
 package main
 
-import "main/concurrency"
+import "main/basic"
 
 func main() {
 	//array.ArrayProblems()
@@ -17,8 +17,8 @@ func main() {
 	// heap.HeapProblems()
 	// graph.GraphProblems()
 	// searchsorting.Searchsorting()
-	//basic.BasicProblems()
-	concurrency.Concurrency()
+	basic.BasicProblems()
+	//concurrency.Concurrency()
 	//practice.Practice()
 	//blind75.Blind75()
 }
