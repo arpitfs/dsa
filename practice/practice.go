@@ -1,6 +1,8 @@
 package practice
 
-import slidingwindow "main/practice/sliding-window"
+import (
+	twopointers "main/practice/two-pointers"
+)
 
 func Practice() {
 	// twoSumPractice()
@@ -23,8 +25,8 @@ func Practice() {
 	//twopointers.Palindrome()
 	//twopointers.RemoveDuplicates2()
 	//twopointers.PartitionLables()
-	//twopointers.TrappingWater()
+	twopointers.TrappingWater()
 	//CheckPermutationExists()
-	//MedianSortedArray()
-	slidingwindow.MaxInSlidingWindow()
+	////MedianSortedArray()
+	//slidingwindow.MaxInSlidingWindow()
 }

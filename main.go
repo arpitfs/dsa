@@ -1,6 +1,6 @@
 package main
 
-import "main/basic"
+import "main/round2"
 
 func main() {
 	//array.ArrayProblems()
@@ -17,8 +17,9 @@ func main() {
 	// heap.HeapProblems()
 	// graph.GraphProblems()
 	// searchsorting.Searchsorting()
-	basic.BasicProblems()
+	//basic.BasicProblems()
 	//concurrency.Concurrency()
 	//practice.Practice()
 	//blind75.Blind75()
+	round2.Round2()
 }
