@@ -22,7 +22,7 @@ func validAnagram(input1, input2 string) bool {
 		tracker[input2Value] = tracker[input2Value] - 1
 	}
 
-	for i, _ := range tracker {
+	for i := range tracker {
 		if tracker[i] != 0 {
 			return false
 		}

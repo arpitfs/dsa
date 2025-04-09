@@ -6,5 +6,10 @@ func Round2() {
 	//findMaxInSlindingWindow()
 	//waterTrap()
 	//stock()
-	productSelfQuestion()
+	//productSelfQuestion()
+	//coinChange()
+	//runCache()
+	//mergeSortedArray()
+	//climbStairs()
+	validAnagramProblem()
 }
