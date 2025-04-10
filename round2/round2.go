@@ -11,5 +11,10 @@ func Round2() {
 	//runCache()
 	//mergeSortedArray()
 	//climbStairs()
-	validAnagramProblem()
+	//validAnagramProblem()
+	//longestSubstringWRC()
+	//groupAnangram()
+	//palindrome()
+	//minWindowSubString()
+	isValidParanthesis()
 }
