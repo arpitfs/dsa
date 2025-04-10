@@ -16,5 +16,8 @@ func Round2() {
 	//groupAnangram()
 	//palindrome()
 	//minWindowSubString()
-	isValidParanthesis()
+	//isValidParanthesis()
+	//longestPalindromSubString()
+	//encodeDecode()
+	palindromicSubstring()
 }
