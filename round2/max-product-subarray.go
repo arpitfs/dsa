@@ -1,9 +1,9 @@
-package blind75
+package round2
 
 import "fmt"
 
-func maxSubarrayProduct() {
-	input := []int{2, 3, -2, 4}
+func findMaxProductSubarray() {
+	input := []int{-2, 3, -4}
 	result := input[0]
 	maxProduct := input[0]
 	minProduct := input[0]
@@ -21,10 +21,10 @@ func maxSubarrayProduct() {
 	fmt.Println(result)
 }
 
-func minimum(c1, v1 int) int {
-	if c1 < v1 {
-		return c1
+func minimum(v1, v2 int) int {
+	if v1 < v2 {
+		return v1
 	}
 
-	return v1
+	return v2
 }

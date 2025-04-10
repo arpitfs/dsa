@@ -19,5 +19,9 @@ func Round2() {
 	//isValidParanthesis()
 	//longestPalindromSubString()
 	//encodeDecode()
-	palindromicSubstring()
+	//palindromicSubstring()
+	//longestCommonPrefix()
+	//maxSubArraySum()
+	//findMaxProductSubarray()
+	sra()
 }
