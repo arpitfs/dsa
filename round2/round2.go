@@ -23,5 +23,8 @@ func Round2() {
 	//longestCommonPrefix()
 	//maxSubArraySum()
 	//findMaxProductSubarray()
-	sra()
+	//sra()
+	//longestIncreasingSequence()
+	//wordBreak()
+	combinationSum()
 }
