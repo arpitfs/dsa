@@ -51,5 +51,11 @@ func Round2() {
 	//selectProgram()
 	//stopThread()
 	//syncOnceMain()
-	timeoutSelectMain()
+	//timeoutSelectMain()
+	//pairs()
+	//triplets()
+	//mountain()
+	//longestBand()
+	//rains()
+	//subarraySort()
 }
