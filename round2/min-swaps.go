@@ -1,4 +1,4 @@
-// package round2
+package round2
 
 // import (
 // 	"fmt"
