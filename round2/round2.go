@@ -59,5 +59,7 @@ func Round2() {
 	//rains()
 	//subarraySort()
 	//housing()
-	uniqueWindow()
+	//uniqueWindow()
+	//countSubset()
+	generateBrackets()
 }
