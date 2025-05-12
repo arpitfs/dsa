@@ -27,5 +27,9 @@ func Concurrency() {
 	//pool()
 	//pingPong()
 	//threadPanic()
-	processing()
+	//processing()
+	//bufferedProcessing()
+	//pipelineCheck()
+	//workingModel()
+	workingPool()
 }
