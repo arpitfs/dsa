@@ -15,7 +15,7 @@ func Concurrency() {
 	//fanOut()
 	//workerMain()
 	//testPanic()
-	closure()
+	//closure()
 	//rateLimitor()
 	//timeoutSelect()
 	//pipeline()
@@ -25,4 +25,7 @@ func Concurrency() {
 	//syncOnce()
 	//contextCancel()
 	//pool()
+	//pingPong()
+	//threadPanic()
+	processing()
 }
